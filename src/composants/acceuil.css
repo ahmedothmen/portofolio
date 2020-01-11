@@ -1,0 +1,63 @@
+.grid-style{
+    background: #b92b27; 
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  
+    background: linear-gradient(to right, #1565C0, #b92b27);  
+ }
+ .img-style{
+  height:200px;
+ }
+ .banner-style{
+     background-color: black;
+     opacity:0.7;
+     width:75%;
+     margin:auto;
+     border-radius:10px;
+     text-align: center;
+     
+ }
+ .banner-style h1{
+    text-align: center;
+    color:white;
+    font-weight:bolder;
+    padding-top:0.25em;
+ }
+ .banner-style hr{
+     border-bottom: white double 0.5em;
+     width:50%;
+     margin:auto;
+ }
+ .banner-style h3{
+     color:white;
+     padding:1em;
+     font-weight:bolder;
+    }
+    .banner-style .reseaux-sociaux  {
+        display:flex;
+        justify-content:space-between;
+        margin:auto;
+        width:50%;
+       }
+       .banner-style .reseaux-sociaux a {
+           color:white;
+           margin-bottom:1em;
+       }
+       @media (max-width:575px) {
+        .banner-style h3{
+           
+            font-size:1.7em;
+           
+           }
+
+           .banner-style .reseaux-sociaux a {
+    
+            font-size:10px;
+            
+        }
+    }
+
+    .span-style{
+        margin-left:25%;
+        font-weight:bolder;
+        font-size:5em;
+        
+    }

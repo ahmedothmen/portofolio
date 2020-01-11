@@ -1,0 +1,140 @@
+
+.header h3{
+    font-family: 'Anton', sans-serif;
+}
+.card{
+    display:flex;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+    margin-bottom:30px;
+    
+    
+}
+
+
+
+.card .img-card{
+    background-position:'center';
+    background-size:cover;
+    border-radius:20px;
+    width:30%;  
+    margin:2%;
+    margin-bottom:20px; 
+    text-align:center;
+    opacity:0.7;
+    overflow: hidden;
+    
+    
+}
+.card .img-card h1 {
+    font-family: 'Anton', sans-serif;
+    margin:100px auto; 
+    color:#1565C0;;
+    font-size:4em;
+}
+.text-card .card-tilte {
+    height:96px;
+    width:96px;
+    line-height:96px;
+    color:white;
+    margin:2%;
+    border-radius:50%;
+    background:#b92b27;
+    text-align:center;
+    font-family: 'Anton', sans-serif;
+    display:none;
+}
+
+.text-card .card-content {
+     margin:2%;
+    
+}
+.text-card .card-content h4{
+    font-family: 'Anton', sans-serif;
+}
+.text-card{
+    width:70%;
+    padding-top:60px;
+    
+}
+
+
+.text-card .card-content h5,.text-card .card-content p{
+    font-family: 'Oxygen Mono', monospace;
+    color: black;
+}
+
+
+
+.title-style{
+    background:url('https://miro.medium.com/max/1500/1*y6C4nSvy2Woe0m7bWEn4BA.png');
+     background-position:'center';
+     background-size:cover;
+     height:450px; 
+     width:100%; 
+}
+.text-style p{
+font-size:18px;
+font-weight:bolder;
+font-family:Tahoma;
+
+}
+
+@media (max-width:700px) {
+     
+}
+
+
+
+.container{
+    margin:2%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+   
+    }
+span{
+font-weight:bold;
+color:#1565C0;
+}
+.tabs-style {
+background: #b92b27; 
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  
+background: linear-gradient(to right, #1565C0, #b92b27); 
+}
+
+/***mobile and tablette*/
+@media(max-width:767px){
+    .card .img-card{
+      display:none;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card .card-tilte {
+        display: block;
+        margin:auto;
+    }
+    .card .text-card{
+    width:100%;
+    }
+
+
+
+}
+/*Small Screeen*/
+@media(min-width:768px) and (max-width:991px){
+  
+    
+}
+/*Meduim Screen*/
+@media(min-width:992px) and (max-width:1199px){
+
+}
+/*large screen*/
+@media(min-width:1200){
+  
+}

@@ -1,0 +1,45 @@
+.img-style{
+    height:200px;
+   }
+.contact-body{
+ margin:auto;
+padding-top:100px;
+ width:100%;
+ background:white;
+ position:fixed;
+ padding-bottom:100px;
+}
+.contact-grid{
+ margin:auto;
+ width:80%;
+ background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab); 
+background: linear-gradient(to right, #eef2f3, #8e9eab); 
+ 
+ color:black;
+ text-align:center;
+ padding-top:1em;
+ 
+}
+.contact-grid h2{
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+    font-family: 'Oxygen Mono', monospace;
+    padding-top:1em;
+}
+
+.contact-grid hr{
+    border-top: 0.8em dotted black;
+    margin:auto;
+    width:50%;
+}
+.contact-list{
+    padding-top:1em;
+    color:white;
+}
+
+.contact-list i{
+ padding-right:0.5em;
+}
