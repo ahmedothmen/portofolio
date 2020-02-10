@@ -12,7 +12,7 @@ class Cv extends Component {
     return (
      <div>
          <Grid>
-             <Cell col={4}>
+         <Cell col={4} className="panel">
               <div style={{textAlign:'center'}}>
                <img src="avatar.png"
                 alt="avatar" 
@@ -23,7 +23,50 @@ class Cv extends Component {
                  <hr style={{borderTop:'3px solid grey'}} />
                  <h6>Adresse: Sidi dhaheur Bouargoub nabeul</h6>
                  <h6>Email ahmed.benothmen@esprit.tn</h6>
-                 <h6>Tel : +216 21951731</h6>
+                 <h6>Tel : +216 53 373 244</h6>
+                 <hr style={{borderTop:'3px solid grey'}} />
+                 <h5>PERSONELLES</h5>
+                 <h6>Nationalité: Tunisienne</h6>
+                 <h6>Age:            26</h6>
+                 <h6>Permis de conduire: oui</h6>
+                 <hr style={{borderTop:'3px solid grey'}} />
+                       <h5> INTERETS</h5>
+                  <h6>Cinéma       Sport    Manga </h6>
+                 <hr style={{borderTop:'3px solid grey'}} />
+                <h3>Competences</h3>
+                <Competence nomCompetence="Angular" niveauCompetence="80" />
+                <Competence nomCompetence="Framework Spring" niveauCompetence="70" />
+                <Competence nomCompetence="Framework Symfony" niveauCompetence="70" />
+                <Competence nomCompetence="ReactJs" niveauCompetence="60" />
+                <Competence nomCompetence="NodeJs" niveauCompetence="60" />
+                <hr style={{borderTop:'3px solid grey'}} />
+                 <h5>LANGUES</h5>
+                 <h6>FRANÇAIS </h6>
+                 <h6>ANGLAIS</h6>
+                 <h6>ARABE</h6>
+              </div>
+             </Cell> 
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             <Cell col={12} className="panel1">
+              <div style={{textAlign:'center'}}>
+               <img src="avatar.png"
+                alt="avatar" 
+                 style={{width:'250px'}} /> 
+                   <hr style={{borderTop:'3px solid grey'}} />
+                  <h3>Ahmed Ben Othmen</h3>
+                 <h5>Développeur Web Full Stak</h5>
+                 <hr style={{borderTop:'3px solid grey'}} />
+                 <h6>Adresse: Sidi dhaheur Bouargoub nabeul</h6>
+                 <h6>Email ahmed.benothmen@esprit.tn</h6>
+                 <h6>Tel : +216 53 373 244</h6>
                  <hr style={{borderTop:'3px solid grey'}} />
                  <h5>PERSONELLES</h5>
                  <h6>Nationalité: Tunisienne</h6>

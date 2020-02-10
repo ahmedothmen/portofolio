@@ -20,12 +20,12 @@ function App (){
                 <Link exact to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
-            <Navigation>
-            <Link exact to="/">Acceuil </Link>
-                <Link exact to="/cv">CV </Link>
-                <Link exact to="/projets">Projets </Link>
-                <Link exact to="/contact">Contact</Link>
+        <Drawer title="Title" style={{background: '#b92b27',background: '-webkit-linear-gradient(to right, #1565C0, #b92b27)', background: 'linear-gradient(to right, #1565C0, #b92b27)'}}>
+            <Navigation  >
+            <Link exact to="/" style={{color:'#ffff'}}>Acceuil </Link>
+                <Link  exact to="/cv" style={{color:'#ffff'}}>CV </Link>
+                <Link exact to="/projets" style={{color:'#ffff'}}>Projets </Link>
+                <Link exact to="/contact" style={{color:'#ffff'}}>Contact</Link>
             </Navigation>
         </Drawer>
         <Content>

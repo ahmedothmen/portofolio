@@ -12,7 +12,7 @@ class Contact extends Component {
                         <h2>Ahmed Ben Othmen</h2>
                         <img src="avatar.png" alt="avatar" className="img-style" />
                         <p>Bonjour je suis Ben Othman Ahmed,Je suis étudiant  ingénieur  informatique à l'école Supérieur Privé d'Ingénierie et des technologies (ESPRIT) spécialité génie logiciel.
-                 Actuellement je suis un stagiare chez le groupe Doctegestio ma fonction est un développeur full stack Js (reactJs,nodeJs).</p>
+                 Actuellement je suis en train de chercher un stage dans le développement web full stack.</p>
                     </Cell>
 
                     <Cell col={6}>
@@ -23,7 +23,7 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{ fontSize: '1.7em' }} >
                                     <i class="fa fa-mobile fa-2x"></i>
-                                    +216 21951731</ListItemContent>
+                                    +216 53 373 244</ListItemContent>
                             </ListItem>
                             <ListItem>
                                 <ListItemContent style={{ fontSize: '1.7em' }} >

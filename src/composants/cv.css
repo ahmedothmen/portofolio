@@ -7,4 +7,16 @@
     padding:1em;
     margin:-20px;
 }
+.panel1{
+    display:none;
+}
 
+@media(max-width:850px){
+    .panel{
+        display:none;
+    }
+    .panel1{
+        display: block;
+    }
+    
+}

@@ -120,14 +120,97 @@ class Projets extends Component{
     }
 
     else if(this.state.activeTab===2){
-        return(<h1>
-            spring Boot
-        </h1>);
+        return( <div className="container">
+             
+        <div className="card" >
+        <div className="img-card"> <h1> Introduction</h1>  </div>
+        <div className="text-card">
+            <div className="card-tilte">Introduction</div>
+            <div className="card-content">
+              <h4>Introduction</h4>
+            <p>Dans ma 2-ème année, j’ai participé à la réalisation d'une application d'assurance.
+          (Gestion de constats, de véhicules, de contacts, de Policies, des utilisateurs)
+                  Nous avons procédé comme suite :
+                L’analyse de besoin puis le Backlog Product après qu'il a été validé on a réalisé le Backlog sprint puis
+                   on a devisé les taches
+                Au cours des phases de développements on a utilisé git pour intégrer les tâches.
+                 À la fin de chaque sprint on discute le produit avec les enseignants encadrants
+            
+                 <span>Mots clés:</span> JEE 7, JPA, EJB, Hibernet, Rest API, Retrofit, Android, ASP .net, c# Github, SCRUM
+                  
+                  </p>
+            </div>
+        </div>
+        </div>
+    
+        <div className="card" >
+        <div className="img-card"><h1> java EE</h1> </div>
+        <div className="text-card">
+            <div className="card-tilte">java EE</div>
+            <div className="card-content">
+              <h4>Sprint 1</h4>
+            <p> Mes taches son la gestion de Policy (ajout suppression modification et affichage)
+            Alerte en cas d’un contrat expiré
+            Suggestion s’il y a un utilisateur sans contrat
+             Top4 Policy    
+                 </p>
+                 <span>Mots Clé :API SMS API mail </span>
+                 <br/>
+                 <a href="https://github.com/ahmedothmen/cgaJavaEE/tree/master/cga" accent>Github</a>
+            </div>
+        </div>
+        </div>
+
+
+        <div className="card" >
+        <div className="img-card"><h1>ASP.net</h1> </div>
+        <div className="text-card">
+            <div className="card-tilte">ASP.net</div>
+            <div className="card-content">
+              <h4>Sprint 2</h4>
+              <p> Dans ce sprint j’ai consommé le service web exposé dans le sprint java EE affichage de Policy et j’ai
+                 ajouté une nouvelle fonctionnalité commentaire (l’utilisateur peut commenter une Policy)
+                Gestion de commentaire (ajout suppression modification et affichage)
+               Nombre de commentaire par Policy
+               Nombre de commentaire par utilisateur     
+                 </p>
+                 <br/>
+                 <a href="https://github.com/ahmedothmen/cgaAspNet" accent>Github</a>
+            
+            </div>
+        </div>
+        </div>        
+         </div>);
     }
     else if(this.state.activeTab===3){
-        return(<h1>
-           Angular
-        </h1>);
+        return(<div className="container">
+         
+        <div className="card" >
+        <div className="img-card"><h1>Introduction</h1> </div>
+        <div className="text-card">
+            <div className="card-tilte">Introduction</div>
+            <div className="card-content">
+              <h4>Introduction</h4>
+            <p> Plateforme web permettant aux différents acteurs de santé de s’interconnecter et d’échanger de la
+                donnée médicale
+                 </p>
+                 <span>Mots clés</span>Angular, Rest Api, Spring boot, Google cloud ts Clé :API SMS API mail
+                 <br/> 
+                  <span>Mes taches:</span>
+                  <h5>Module de gestion de prescription médicament:</h5>
+                  <p>-Ajout Prescription</p>
+                  <p>-Affichage Prescription</p>
+                  <h5>Module de gestion de Prescription Protocole</h5>
+                  <p>-Ajout prescription configurée </p>
+                  <p>-Affichage prescription configurée</p>
+                  <h5>Module de chat en ligne </h5> 
+                  <a href="https://yes-dr.appspot.com/" accent>Demo</a>
+
+            </div>
+        </div>
+        </div>
+
+        </div>);
     }
   }
    render(){
@@ -138,7 +221,6 @@ class Projets extends Component{
             <Tab style={{color:'#fff'}}>BeMyGuest</Tab>
             <Tab style={{color:'#fff'}}>CGA</Tab>
             <Tab style={{color:'#fff'}}>Yes DR</Tab>
-            <Tab style={{color:'#fff'}}>Titre Foncier</Tab>
         </Tabs>
         <section>
         {this.afficherProjet()}

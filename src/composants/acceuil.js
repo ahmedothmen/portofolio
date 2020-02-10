@@ -7,11 +7,15 @@ class Accueil extends Component{
    render(){
     return (
         <div>
+           
             <Grid className="grid-style">
                 <Cell col={12}>
                     <img src="/avatar.png" alt="avatar" className="img-style"/>
-                    <span className="span-style" style={{color:'#gggg'}}><span style={{color:'#b92b27'}}>Bien</span>v<span style={{color:'#1565C0'}}>enue</span></span>
+                    <span className="span-style" style={{color:'#gggg'}}><span style={{color:'#b92b27'}}><span className="b">B</span><span className="i">i</span><span className="e">e</span><span className="n">n</span></span><span className="v">v</span><span style={{color:'#1565C0'}}><span className="e2">e</span><span className="n2">n</span><span className="u">u</span><span className="e3">e</span></span></span>
+                    
                 </Cell>
+               
+
               
                
                 <div className="banner-style">
